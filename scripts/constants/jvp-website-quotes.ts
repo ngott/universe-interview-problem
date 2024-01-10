@@ -1,0 +1,17 @@
+export const jvpQuotes = [
+  "We envision a world where all people — from the U.S. to Palestine — live in freedom, justice, equality, and dignity.",
+  "Like generations of Jewish leftists before us, we fight for the liberation of all people.",
+  "We believe that through organizing, we can and will dismantle the institutions and structures that sustain injustice and grow something new, joyful, beautiful, and life-sustaining in their place...",
+  "Accountability to Palestinian Partners",
+  "Our accountability to Palestinian is an ongoing process: of deep listening, continual relationship-building, and genuine re-assessment. ",
+  "We are accountable to Palestinian-led organizations and coalitions that represent, and are themselves accountable to, Palestinian communities and who share the values of freedom, justice, and equality for all people. ",
+  "We organize our people and we resist Zionism because we love Jews, Jewishness, and Judaism. ",
+  "Our struggle against Zionism is not only an act of solidarity with Palestinians, but also a concrete commitment to creating the Jewish futures we all deserve. ",
+  "We are fighting for a thriving Judaism and Jewish communities, for a multiplicity of Jewish cultures and for the future of the Jewish people.",
+  "Our commitment to racial justice is a core praxis in our work, by which we mean an ongoing cycle of action and reflection within which we are striving to dismantle racism–both outside and within the organization–while also working to grow a liberatory culture for our organizing. ",
+  "Our call for a permanent ceasefire is about saving lives.",
+  "The Israeli government claims to be acting in the name of the Jewish people, so we are compelled to make sure the world knows that many Jews are opposed to its actions.",
+  "Israel is a state, not a person. Everyone has the right to criticize the unjust actions of a state. JVP members represent a growing portion of U.S. Jews.",
+  "Our safety is bound together with the safety of all people, and none of us is free if we aren’t all free.",
+  "URGENT: Demand a ceasefire now. Millions of lives depend on it.",
+];

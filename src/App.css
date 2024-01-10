@@ -1,0 +1,176 @@
+body {
+  font-family: arial, sans-serif;
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+/* so that nav doesn't overlap body */
+.body-container {
+  min-width: 1200px;
+}
+
+/* nav doesn't scroll */
+.nav {
+  position: fixed;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 12px;
+  width: 290px;
+}
+
+.nav-box {
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 12px;
+}
+
+.nav-box:hover {
+  background-color: #14171a;
+  cursor: pointer;
+}
+
+.nav-button {
+  display: flex;
+  color: white;
+  font-size: large;
+  height: 24px;
+  align-items: center;
+  padding: 8px;
+}
+
+.list-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 598;
+}
+
+.input {
+  color: white;
+  background-color: black;
+  border: 3px solid black;
+  font-size: large;
+}
+
+.button {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.submit {
+  color: white;
+  font-size: large;
+  background-color: #1da1f2;
+  border: 3px solid #14171a;
+  width: 64px;
+  height: 36px;
+  border-radius: 24px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 598;
+}
+
+.post-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 598;
+}
+
+.element-container {
+  display: inline-flex;
+  border: 0.1px solid #657786;
+  border-top: 0px;
+  flex-direction: row;
+  padding: 12px 16px 12px 16px;
+}
+
+.title-padding {
+  height: 12px;
+  width: 100%;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+  width: 40px;
+  margin-right: 12px;
+}
+
+.post-body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  width: 514px;
+  row-gap: 8px;
+}
+
+.profile-tool-tip {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  row-gap: 8px;
+}
+
+.user-name {
+  font-weight: bold;
+}
+
+.post-text {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-wrap: normal;
+  word-break: normal;
+  text-wrap: pretty;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-number {
+  margin-right: 8px;
+}
+
+.page-button {
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  background-color: black;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.page-button h1 {
+  text-align: center;
+  color: white;
+}
+
+.profile-img {
+  border-radius: 8px;
+}
