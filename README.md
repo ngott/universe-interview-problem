@@ -1,4 +1,15 @@
-# Staff Frontend Interview
+# Running
+
+- To run the app, `npm run dev`
+- Open up  `http://localhost:3000/`
+
+# Generating new fake data
+
+- Delete `db/app.db`
+- Use `sqlite` to create a fresh `app.db`
+- With `npx ts-node` run `scripts/seed-fake-data.ts`
+
+# Problem Statement
 
 Today we'll be building a better Twitter. Ideally, one without Nazis.
 
@@ -16,15 +27,4 @@ Treat me as Google. If you would normally look something up in the process of de
 Here are a couple screenshots for visual reference:
 <img width="1624" alt="Screenshot 2023-12-20 at 5 28 12 PM" src="https://github.com/universe/staff-frontend-interview/assets/7856443/e0e8ab05-6aa2-4315-b26a-60edec4d37ab">
 <img width="1624" alt="Screenshot 2023-12-20 at 5 28 44 PM" src="https://github.com/universe/staff-frontend-interview/assets/7856443/7cbfc5c6-5a66-4480-a202-40ddb57dd573">
-
-# Running
-
-To run the app, `npm run dev`
-Open up  `http://localhost:3000/`
-
-# Generating new fake data
-
-Delete `db/app.db`
-Use `sqlite` to create a fresh `app.db`
-With `npx ts-node` run `scripts/seed-fake-data.ts`
 
